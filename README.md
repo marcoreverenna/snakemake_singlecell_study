@@ -1,7 +1,6 @@
-![image](https://github.com/marcoreverenna/snakemake_tutorial/assets/89908852/2de6328d-4201-4dc8-afb1-1012118fa478)<p align="center">
-   <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+<p align="center">
   <a href="" rel="noopener">
- 
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">EmbryoHMM</h3>
