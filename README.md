@@ -20,35 +20,22 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-
-
 ## 🏁 Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
+These instructions will get you .....................
 ### Prerequisites
-
-
 [Git](https://github.com/git-guides/install-git "Git") and [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html "Conda") should be installed prior to installation of this workflow. 
 
-
 ### Installing
-
 - Clone workflow into working directory
-
 ```
 git clone https://github.com/marcoreverenna/snakemake_tutorial path/to/workdir
 cd path/to/workdir
 ```
-
-
 - install dependencies into isolated environment
 conda env create -n myworkflow --file environment.yaml
 
@@ -59,35 +46,28 @@ source activate myworkflow
 ```
 snakemake -c1 "data/crossovers/PGD043_chrom:2_mat_crossovers.csv"
 ```
-
 ## 🔧 Running the tests <a name = "tests"></a>
-
+...............................................
 Explain how to run the automated tests for this system.
 
 ### Break down into end to end tests
-
+...............................................
 Explain what these tests test and why
-
 ```
 Give an example
 ```
-
 ### And coding style tests
-
+...............................................
 Explain what these tests test and why
-
 ```
 Give an example
 ```
-
 ## 🎈 Usage <a name="usage"></a>
-
+...............................................
 Add notes about how to use the system.
-
 ## 🚀 Deployment <a name = "deployment"></a>
-
+...............................................
 Add additional notes about how to deploy this on a live system.
-
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [GenomeDK](https://genome.au.dk/) - Server Environment
 - [Beagle5.4](https://faculty.washington.edu/browning/beagle/beagle.html) - Imputation algorithm
@@ -95,7 +75,4 @@ Add additional notes about how to deploy this on a live system.
 - [@marcoreverenna](https://github.com/marcoreverenna) -
 - [@ivanvogel](https://github.com/puko818) -
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- A
-- B
-- C
+...............................................
