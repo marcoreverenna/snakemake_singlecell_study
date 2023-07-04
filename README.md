@@ -1,4 +1,5 @@
-<p align="center">
+![image](https://github.com/marcoreverenna/snakemake_tutorial/assets/89908852/2de6328d-4201-4dc8-afb1-1012118fa478)<p align="center">
+   <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
   <a href="" rel="noopener">
  
 </p>
@@ -94,20 +95,13 @@ Add notes about how to use the system.
 Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
+- [GenomeDK](https://genome.au.dk/) - Server Environment
+- [Beagle5.4](https://faculty.washington.edu/browning/beagle/beagle.html) - Imputation algorithm
 ## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
+- [@marcoreverenna](https://github.com/marcoreverenna) -
+- [@ivanvogel](https://github.com/puko818) -
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- A
+- B
+- C
