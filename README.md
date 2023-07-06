@@ -1,13 +1,9 @@
+## Imputation pipeline on single-cell SNP array data
 <div align="center">
-
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
 </div>
-
 ---
-## Imputation pipeline on single-cell SNP array data
-
 <p align="center"> 
     <br> Snakemake workflow for integrating imputation algorithm and processing PGT embryos (SNP array)
 </p>
