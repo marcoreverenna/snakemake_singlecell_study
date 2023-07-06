@@ -52,10 +52,9 @@ snakemake --snakefile snakemake_one_sample.smk --cores 10
 ```
 
 ## 🚀 Deployment <a name = "deployment"></a>
-...............................................
+Add notes...
 
 ## 🎈 Usage <a name="usage"></a>
-...............................................
 Add notes about how to use the system.
 
 Add additional notes about how to deploy this on a live system.
@@ -66,4 +65,4 @@ Add additional notes about how to deploy this on a live system.
 - [@marcoreverenna](https://github.com/marcoreverenna) -
 - [@ivanvogel](https://github.com/puko818) -
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-...............................................
+Add notes...
