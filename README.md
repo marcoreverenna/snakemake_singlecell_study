@@ -1,5 +1,3 @@
-<h3 align="center">EmbryoHMM</h3>
-
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
@@ -8,6 +6,7 @@
 </div>
 
 ---
+## Imputation pipeline on single-cell SNP array data
 
 <p align="center"> 
     <br> Snakemake workflow for integrating imputation algorithm and processing PGT embryos (SNP array)
@@ -24,44 +23,30 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
+The objective of this project is to restore unsatisfactory genotypes using an imputation algorithm. Analyzing single-cell SNP array data poses challenges due to the amplification of DNA, which is necessary because of the limited genetic material available. After quality control, unsuitable genotypes are detected and eliminated. Subsequently, they are imputed again to enhance the accuracy of downstream analysis.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you .....................
-### Prerequisites
-[Git](https://github.com/git-guides/install-git "Git") and [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html "Conda") should be installed prior to installation of this workflow. 
+These instructions will enable you to have a copy of the project up and running on your genomedk profile for development, testing and playback of the workflow for all Leuven PGD036 family.
 
-### Installing
-- Clone workflow into working directory
+### 🔧 Prerequisites and installing <a name = "prerequisites_and_installing"></a>
+This workflow is set up to be executed on genomedk cluster. Therefore, the only prerequisite is to have a genomedk login and to be a member of the meiomap project group on genomedk. Genomedk uses package manager called [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html "Conda") and [Git](https://github.com/git-guides/install-git "Git") to download the entire project.
+
+1. Clone workflow into working directory
 ```
 git clone https://github.com/marcoreverenna/snakemake_tutorial path/to/workdir
 cd path/to/workdir
 ```
-- install dependencies into isolated environment
+2. install dependencies into isolated environment
 conda env create -n myworkflow --file environment.yaml
 
-- activate environment
+3. activate environment
 source activate myworkflow
 
-- execute workflow, i.e.
+4. execute workflow, i.e.
 ```
-snakemake -c1 "data/crossovers/PGD043_chrom:2_mat_crossovers.csv"
+snakemake --snakefile snakemake_one_sample.smk --cores 10
 ```
-## 🔧 Running the tests <a name = "tests"></a>
-...............................................
-Explain how to run the automated tests for this system.
 
-### Break down into end to end tests
-...............................................
-Explain what these tests test and why
-```
-Give an example
-```
-### And coding style tests
-...............................................
-Explain what these tests test and why
-```
-Give an example
-```
 ## 🎈 Usage <a name="usage"></a>
 ...............................................
 Add notes about how to use the system.
