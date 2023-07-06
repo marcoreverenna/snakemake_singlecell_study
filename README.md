@@ -17,6 +17,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Prerequisites and installing](#prerequisites_and_installing)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
@@ -38,21 +39,25 @@ git clone https://github.com/marcoreverenna/snakemake_tutorial path/to/workdir
 cd path/to/workdir
 ```
 2. install dependencies into isolated environment
+```
 conda env create -n myworkflow --file environment.yaml
-
-3. activate environment
+```
+4. activate environment
+```
 source activate myworkflow
-
-4. execute workflow, i.e.
+```
+5. execute workflow, i.e.
 ```
 snakemake --snakefile snakemake_one_sample.smk --cores 10
 ```
 
+## 🚀 Deployment <a name = "deployment"></a>
+...............................................
+
 ## 🎈 Usage <a name="usage"></a>
 ...............................................
 Add notes about how to use the system.
-## 🚀 Deployment <a name = "deployment"></a>
-...............................................
+
 Add additional notes about how to deploy this on a live system.
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [GenomeDK](https://genome.au.dk/) - Server Environment
