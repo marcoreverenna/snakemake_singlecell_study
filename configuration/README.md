@@ -1,7 +1,7 @@
-### Activate your conda environment
-´´´´
+#### Activate your conda environment
+´´´
 conda env export --name imp_proj > imp_env.yaml
-´´´´
+´´´
 
 ### Create your conda environment utilisizing 
 ´´´´
