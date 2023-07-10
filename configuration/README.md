@@ -12,5 +12,3 @@ conda env create --name imp_proj -f imp_env.yaml
 ```
 conda activate imp_proj
 ```
-
-NB:yaml or yml is the same thing 
