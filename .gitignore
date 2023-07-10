@@ -1,0 +1,7 @@
+__pycache__
+.snakemake/*
+.snakemake
+output/*
+output
+data
+data/*
