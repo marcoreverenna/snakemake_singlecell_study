@@ -33,7 +33,7 @@ cd path/to/workdir
 ```
 2. install dependencies into isolated environment
 ```
-conda env create -n imp_proj --file imp_proj.yaml
+conda env create --name imp_proj --file imp_env.yaml
 ```
 4. activate environment
 ```
