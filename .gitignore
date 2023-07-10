@@ -1,6 +1,5 @@
 __pycache__
 .snakemake
-output/*
-output
-data/raw/*
 .snakemake/*
+data
+data/raw/*
