@@ -3,7 +3,7 @@ import pandas as pd
 from src import snparray_to_vcf as snplib
 from seqseek import Chromosome, BUILD37
 
-#configfile: "config.yaml"
+configfile: "config.yaml"
 
 CHROMOSOME_STR = [str(chrom) for chrom in list(range(1,23))]
 
