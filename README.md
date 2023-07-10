@@ -39,7 +39,11 @@ conda env create -n imp_proj --file imp_proj.yaml
 ```
 source activate imp_proj
 ```
-5. execute workflow, i.e.
+5. download data for imputation
+```
+sh get_data.sh
+```
+6. execute workflow, i.e.
 ```
 snakemake --snakefile snakemake_one_sample.smk --cores 10
 ```
