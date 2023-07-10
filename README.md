@@ -45,7 +45,7 @@ sh get_data.sh
 ```
 6. execute workflow, i.e.
 ```
-snakemake --snakefile snakemake_one_sample.smk --cores 10
+snakemake --snakefile Snakefile --cores 10
 ```
 
 ## 🚀 Deployment <a name = "deployment"></a>
