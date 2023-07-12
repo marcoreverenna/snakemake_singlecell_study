@@ -43,7 +43,11 @@ source activate imp_proj
 ```
 sh get_data.sh
 ```
-6. execute workflow, i.e.
+6. process parquet file
+```
+python processing_parquet.py
+```
+7. execute workflow, i.e.
 ```
 snakemake --snakefile Snakefile --cores 10
 ```
