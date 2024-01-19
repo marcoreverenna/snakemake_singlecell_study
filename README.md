@@ -10,6 +10,8 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Prerequisites and installing](#prerequisites_and_installing)
+- [Repository structure](#repository_structure)
+- [References](#references)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -41,7 +43,7 @@ python processing_parquet.py
 snakemake --snakefile Snakefile --cores 10
 ```
 
-## Repository structure
+## Repository structure <a name = "repository_structure"></a>
 The table below provides an overview of the key files and directories in this repository, along with a brief description of each.
 |File  |Description            |
 |:----:|-----------------------|
